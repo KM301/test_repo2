@@ -23,7 +23,7 @@ while True:
     resp = client.chat.completions.create(
         model="bonsai",
         messages=messages,
-        temperature=0.7
+        temperature=0.8
     )
 
     answer = resp.choices[0].message.content
